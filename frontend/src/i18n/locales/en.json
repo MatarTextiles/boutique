@@ -1,0 +1,129 @@
+{
+  "app": {
+    "name": "MATAR TEXTILES",
+    "tagline": "Your quality textiles shop"
+  },
+  "nav": {
+    "home": "Home",
+    "catalog": "Catalog",
+    "cart": "Cart",
+    "account": "My Account",
+    "orders": "My Orders",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero_title": "Welcome to MATAR TEXTILES",
+    "hero_subtitle": "Discover our selection of premium quality fabrics, curtains and accessories",
+    "shop_now": "Shop Now",
+    "featured_categories": "Our Categories",
+    "featured_products": "Featured Products",
+    "view_all": "View All"
+  },
+  "catalog": {
+    "title": "Catalog",
+    "all_categories": "All Categories",
+    "search_placeholder": "Search for a product...",
+    "no_products": "No products found",
+    "add_to_cart": "Add to Cart",
+    "in_stock": "In Stock",
+    "out_of_stock": "Out of Stock",
+    "filter": "Filter",
+    "sort": "Sort",
+    "price": "Price",
+    "showing": "Showing {count} products"
+  },
+  "product": {
+    "description": "Description",
+    "sku": "SKU",
+    "category": "Category",
+    "quantity": "Quantity",
+    "add_to_cart": "Add to Cart",
+    "added_to_cart": "Added to cart!",
+    "contact_us": "Contact Us"
+  },
+  "cart": {
+    "title": "Cart",
+    "empty": "Your cart is empty",
+    "continue_shopping": "Continue Shopping",
+    "product": "Product",
+    "price": "Price",
+    "quantity": "Quantity",
+    "subtotal": "Subtotal",
+    "total": "Total",
+    "remove": "Remove",
+    "checkout": "Checkout",
+    "clear": "Clear Cart"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "shipping_address": "Shipping Address",
+    "notes": "Notes (optional)",
+    "place_order": "Place Order",
+    "order_success": "Order placed successfully!",
+    "order_summary": "Order Summary"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "phone": "Phone",
+    "submit_login": "Sign In",
+    "submit_register": "Sign Up",
+    "no_account": "Don't have an account?",
+    "has_account": "Already have an account?",
+    "login_link": "Sign In",
+    "register_link": "Sign Up",
+    "login_error": "Invalid email or password",
+    "register_error": "Registration error"
+  },
+  "account": {
+    "title": "My Account",
+    "profile": "Profile",
+    "update": "Update",
+    "updated": "Profile updated successfully"
+  },
+  "orders": {
+    "title": "My Orders",
+    "no_orders": "No orders",
+    "order_number": "Order #{id}",
+    "date": "Date",
+    "status": "Status",
+    "total": "Total",
+    "details": "Details",
+    "statuses": {
+      "PENDING": "Pending",
+      "CONFIRMED": "Confirmed",
+      "SHIPPED": "Shipped",
+      "DELIVERED": "Delivered",
+      "CANCELLED": "Cancelled"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Business Hours",
+    "hours_weekday": "Monday - Friday: 9am - 6pm",
+    "hours_saturday": "Saturday: 10am - 5pm",
+    "hours_sunday": "Sunday: Closed"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "address": "7488 St-Hubert, Montreal QC H2R 2N3"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "save": "Save",
+    "cancel": "Cancel",
+    "back": "Back",
+    "close": "Close"
+  }
+}

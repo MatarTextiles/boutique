@@ -1,0 +1,26 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:mariadb://localhost:3306/matar_textiles
+    username: ia
+    password: foufafou
+    driver-class-name: org.mariadb.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    defer-datasource-initialization: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MariaDBDialect
+        format_sql: true
+  sql:
+    init:
+      mode: always
+
+app:
+  jwt:
+    secret: MatarTextilesSecretKeyForJwtTokenGeneration2024VeryLongAndSecure
+    expiration: 86400000
