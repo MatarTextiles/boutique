@@ -1,3 +1,7 @@
+-- Admin user (password: admin123)
+INSERT IGNORE INTO users (id, email, password, first_name, last_name, role, created_at, updated_at) VALUES
+(1, 'admin@matartextiles.com', '$2a$10$HzteiLtrGE7Ilon4rRumoujEepNkgjDAG/XXZ9jzx/gL7ob9rDLsa', 'Admin', 'Matar', 'ADMIN', NOW(), NOW());
+
 -- Categories
 INSERT IGNORE INTO categories (id, name_fr, name_en, slug, description_fr, description_en, image_url, display_order, created_at, updated_at) VALUES
 (1, 'Laine', 'Wool', 'laine', 'Laines de qualité pour tricot et confection', 'Quality wool for knitting and garment making', '/images/categories/laine.jpg', 1, NOW(), NOW()),

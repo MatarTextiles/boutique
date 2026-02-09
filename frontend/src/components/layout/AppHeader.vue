@@ -19,6 +19,7 @@ const mobileMenuOpen = ref(false)
       <nav class="nav" :class="{ open: mobileMenuOpen }">
         <RouterLink to="/" @click="mobileMenuOpen = false">{{ t('nav.home') }}</RouterLink>
         <RouterLink to="/catalog" @click="mobileMenuOpen = false">{{ t('nav.catalog') }}</RouterLink>
+        <RouterLink to="/about" @click="mobileMenuOpen = false">{{ t('nav.about') }}</RouterLink>
         <RouterLink to="/contact" @click="mobileMenuOpen = false">{{ t('nav.contact') }}</RouterLink>
         <LanguageSwitcher />
       </nav>
@@ -28,7 +29,7 @@ const mobileMenuOpen = ref(false)
 
 <style scoped>
 .header {
-  background: var(--color-primary-dark);
+  background: #ffffff;
   height: var(--header-height);
   position: sticky;
   top: 0;
@@ -45,7 +46,7 @@ const mobileMenuOpen = ref(false)
   font-family: var(--font-family-heading);
   font-size: 1.4rem;
   font-weight: 700;
-  color: #ffffff !important;
+  color: var(--color-primary-dark) !important;
   letter-spacing: 2px;
 }
 .nav {
@@ -54,13 +55,13 @@ const mobileMenuOpen = ref(false)
   gap: 1.25rem;
 }
 .nav a {
-  color: var(--color-text-inverse);
+  color: var(--color-primary-dark);
   font-size: 0.9rem;
   font-weight: 400;
-  opacity: 0.9;
+  opacity: 0.85;
 }
 .nav a:hover, .nav a.router-link-active {
-  color: var(--color-primary-light);
+  color: var(--color-primary);
   opacity: 1;
 }
 .mobile-toggle {
@@ -76,7 +77,7 @@ const mobileMenuOpen = ref(false)
   display: block;
   width: 24px;
   height: 2px;
-  background: var(--color-text-inverse);
+  background: var(--color-primary-dark);
   transition: var(--transition);
 }
 
@@ -90,7 +91,7 @@ const mobileMenuOpen = ref(false)
     top: var(--header-height);
     left: 0;
     right: 0;
-    background: var(--color-primary-dark);
+    background: #ffffff;
     flex-direction: column;
     padding: 1rem;
     gap: 0.75rem;

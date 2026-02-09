@@ -2,6 +2,10 @@ server:
   port: 8081
 
 spring:
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 5MB
   datasource:
     url: jdbc:mariadb://localhost:3306/matar_textiles
     username: ia
@@ -21,6 +25,8 @@ spring:
       mode: always
 
 app:
+  upload:
+    dir: /opt/matartextiles/uploads
   jwt:
     secret: MatarTextilesSecretKeyForJwtTokenGeneration2024VeryLongAndSecure
     expiration: 86400000

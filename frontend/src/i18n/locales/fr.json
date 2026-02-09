@@ -12,7 +12,8 @@
     "login": "Connexion",
     "register": "Inscription",
     "logout": "Déconnexion",
-    "contact": "Contact"
+    "contact": "Contact",
+    "about": "À propos"
   },
   "home": {
     "hero_title": "Bienvenue chez MATAR TEXTILES",
@@ -104,19 +105,43 @@
       "CANCELLED": "Annulée"
     }
   },
+  "about": {
+    "title": "À propos",
+    "bio_title": "Notre boutique",
+    "bio": "La boutique de tissus Matar Textile est située à Montréal depuis 1990. Venez rencontrer Leila Matar qui vous accueillera et vous conseillera pour vos besoins de confections et de designs.",
+    "mission_title": "Notre mission",
+    "mission": "Notre mission est de vous offrir du choix et un excellent service clientèle.",
+    "products_title": "Produits et services",
+    "products": "Tissus pour soirées et mariage, boutons, cotons, fermetures éclairs, jeans, polyester, lin, doublure, laine, dentelle, biais et articles.",
+    "team_title": "Qui sommes-nous",
+    "team_ceo": "Le PDG de l'entreprise M. Abbas Matar.",
+    "team_director": "La Directrice est Leila Matar, présente pour vous servir.",
+    "achievements_title": "Nos réalisations",
+    "achievements": "Nous avons évolué, de simples tissus de doublage et de boutons, à une vaste gamme de tissus de soirée et de toutes occasions."
+  },
   "contact": {
     "title": "Contactez-nous",
     "address": "Adresse",
     "phone": "Téléphone",
     "email": "Courriel",
     "hours": "Heures d'ouverture",
-    "hours_weekday": "Lundi - Vendredi: 9h - 18h",
-    "hours_saturday": "Samedi: 10h - 17h",
-    "hours_sunday": "Dimanche: Fermé"
+    "hours_tue_thu_sat": "Mardi, Jeudi, Samedi : 11h30 à 17h",
+    "hours_mon_wed": "Lundi, Mercredi, Vendredi : 10h à 17h",
+    "hours_sunday": "Dimanche : Fermé"
   },
   "footer": {
     "rights": "Tous droits réservés",
     "address": "7488 St-Hubert, Montréal QC H2R 2N3"
+  },
+  "admin": {
+    "title": "Admin - Gestion des images",
+    "login_title": "Connexion Admin",
+    "not_admin": "Acces refuse. Compte administrateur requis.",
+    "categories_title": "Categories",
+    "products_title": "Produits",
+    "change_image": "Changer l'image",
+    "upload_success": "Image telechargee avec succes!",
+    "upload_error": "Erreur lors du telechargement de l'image"
   },
   "common": {
     "loading": "Chargement...",

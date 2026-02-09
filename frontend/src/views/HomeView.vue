@@ -5,6 +5,7 @@ import { useCategoryStore } from '@/stores/category.store'
 import { useProductStore } from '@/stores/product.store'
 import ProductGrid from '@/components/product/ProductGrid.vue'
 import LoadingSpinner from '@/components/ui/LoadingSpinner.vue'
+import HeroCarousel from '@/components/home/HeroCarousel.vue'
 
 const { locale, t } = useI18n()
 const categoryStore = useCategoryStore()
@@ -20,13 +21,7 @@ onMounted(async () => {
 
 <template>
   <div>
-    <section class="hero">
-      <div class="container hero-content">
-        <h1>{{ t('home.hero_title') }}</h1>
-        <p>{{ t('home.hero_subtitle') }}</p>
-        <RouterLink to="/catalog" class="btn btn-secondary btn-lg">{{ t('home.shop_now') }}</RouterLink>
-      </div>
-    </section>
+    <HeroCarousel />
 
     <section class="container page">
       <h2 class="section-title">{{ t('home.featured_categories') }}</h2>
@@ -58,25 +53,6 @@ onMounted(async () => {
 </template>
 
 <style scoped>
-.hero {
-  background: linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-primary) 100%);
-  color: var(--color-text-inverse);
-  padding: 4rem 0;
-  text-align: center;
-}
-.hero-content h1 {
-  font-size: 2.5rem;
-  color: var(--color-text-inverse);
-  margin-bottom: 1rem;
-}
-.hero-content p {
-  font-size: 1.15rem;
-  opacity: 0.9;
-  margin-bottom: 2rem;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .section-title {
   font-size: 1.75rem;
   margin-bottom: 1.5rem;

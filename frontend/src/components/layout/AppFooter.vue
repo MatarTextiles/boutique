@@ -17,17 +17,18 @@ const year = new Date().getFullYear()
         <p>7488 St-Hubert</p>
         <p>Montréal QC H2R 2N3</p>
         <p>(514) 277-6462</p>
-        <p><a href="mailto:roudainamatar@hotmail.com">roudainamatar@hotmail.com</a></p>
+        <p><a href="mailto:info@matartextiles.com">info@matartextiles.com</a></p>
       </div>
       <div class="footer-section">
         <h4>{{ t('contact.hours') }}</h4>
-        <p>{{ t('contact.hours_weekday') }}</p>
-        <p>{{ t('contact.hours_saturday') }}</p>
+        <p>{{ t('contact.hours_mon_wed') }}</p>
+        <p>{{ t('contact.hours_tue_thu_sat') }}</p>
         <p>{{ t('contact.hours_sunday') }}</p>
       </div>
       <div class="footer-section">
         <h4>Navigation</h4>
         <RouterLink to="/catalog">{{ t('nav.catalog') }}</RouterLink>
+        <RouterLink to="/about">{{ t('nav.about') }}</RouterLink>
         <RouterLink to="/contact">{{ t('nav.contact') }}</RouterLink>
       </div>
     </div>

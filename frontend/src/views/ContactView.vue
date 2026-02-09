@@ -25,13 +25,13 @@ const { t } = useI18n()
 
           <div class="info-block">
             <h3>{{ t('contact.email') }}</h3>
-            <p><a href="mailto:roudainamatar@hotmail.com">roudainamatar@hotmail.com</a></p>
+            <p><a href="mailto:info@matartextiles.com">info@matartextiles.com</a></p>
           </div>
 
           <div class="info-block">
             <h3>{{ t('contact.hours') }}</h3>
-            <p>{{ t('contact.hours_weekday') }}</p>
-            <p>{{ t('contact.hours_saturday') }}</p>
+            <p>{{ t('contact.hours_mon_wed') }}</p>
+            <p>{{ t('contact.hours_tue_thu_sat') }}</p>
             <p>{{ t('contact.hours_sunday') }}</p>
           </div>
         </div>

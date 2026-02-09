@@ -12,7 +12,8 @@
     "login": "Login",
     "register": "Register",
     "logout": "Logout",
-    "contact": "Contact"
+    "contact": "Contact",
+    "about": "About"
   },
   "home": {
     "hero_title": "Welcome to MATAR TEXTILES",
@@ -104,19 +105,43 @@
       "CANCELLED": "Cancelled"
     }
   },
+  "about": {
+    "title": "About Us",
+    "bio_title": "Our Shop",
+    "bio": "Matar Textile fabric shop has been located in Montreal since 1990. Come meet Leila Matar who will welcome you and advise you on your sewing and design needs.",
+    "mission_title": "Our Mission",
+    "mission": "Our mission is to offer you choice and excellent customer service.",
+    "products_title": "Products & Services",
+    "products": "Evening and wedding fabrics, buttons, cottons, zippers, jeans, polyester, linen, lining, wool, lace, bias tape and accessories.",
+    "team_title": "Who We Are",
+    "team_ceo": "The CEO of the company is Mr. Abbas Matar.",
+    "team_director": "The Director is Leila Matar, present to serve you.",
+    "achievements_title": "Our Achievements",
+    "achievements": "We have evolved from simple lining fabrics and buttons to a wide range of evening fabrics for all occasions."
+  },
   "contact": {
     "title": "Contact Us",
     "address": "Address",
     "phone": "Phone",
     "email": "Email",
     "hours": "Business Hours",
-    "hours_weekday": "Monday - Friday: 9am - 6pm",
-    "hours_saturday": "Saturday: 10am - 5pm",
+    "hours_tue_thu_sat": "Tuesday, Thursday, Saturday: 11:30am - 5pm",
+    "hours_mon_wed": "Monday, Wednesday, Friday: 10am - 5pm",
     "hours_sunday": "Sunday: Closed"
   },
   "footer": {
     "rights": "All rights reserved",
     "address": "7488 St-Hubert, Montreal QC H2R 2N3"
+  },
+  "admin": {
+    "title": "Admin - Image Management",
+    "login_title": "Admin Login",
+    "not_admin": "Access denied. Admin account required.",
+    "categories_title": "Categories",
+    "products_title": "Products",
+    "change_image": "Change Image",
+    "upload_success": "Image uploaded successfully!",
+    "upload_error": "Error uploading image"
   },
   "common": {
     "loading": "Loading...",
